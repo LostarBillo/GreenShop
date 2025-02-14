@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none
+}
+.container{
+    background: slategray;
+    max-width: 1200px;
+    margin: 0 auto;
+padding: 0 15px;
+}
+
+.Logo,
+.header__nav {
+ display: inline-block;
+ border: 3px solid;
+}
+.btn-login{
+    display: inline-block;
+    border: 3px solid;
+    
+}
+ 
