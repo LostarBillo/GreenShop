@@ -2,20 +2,77 @@ ul{
     list-style-type: none
 }
 .container{
-    background: slategray;
+    background: #fff;
     max-width: 1200px;
     margin: 0 auto;
-padding: 0 15px;
+padding: 30px 70px;
+
 }
+.header{
+    font-size: 0px;
+}
+.header
 
 .Logo,
 .header__nav {
  display: inline-block;
- border: 3px solid;
+ 
+ vertical-align:top;
+ font-size: 16px;
 }
 .btn-login{
     display: inline-block;
-    border: 3px solid;
+    
+    vertical-align: top;
+    font-size: 16px;
     
 }
+.header__nav ul,
+.btn-login{
+    padding: 0px;
+    margin: 0px;
+}
+.Logo{
+    width: 150px;
+}
+.btn-login{
+    width: 100px;
+}
+.header__nav{
+    width: calc(100% - 250px);
+}
+.header_nav-list{
+    text-align: center;
+    
+}
+.header_nav-list li{
+    display: inline-block;
+    margin: 0 25px;
+}
+ .header_nav-list a{
+    text-decoration: none;
+    color:  #3D3D3D;
+    padding-bottom: 20px; ;
+ }
+ .active a,
+ .header_nav-list a:hover{
+    border-bottom: solid 3px #46a358;
+ }
+ .btn-login a{
+  display: inline-block;
+  background: #46a358;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  border:1px solid;
+ }
+ .btn-login a:hover{
+    background: #fff;
+    color: #46a358;
+    
+ }
+
+ 
+ 
  
