@@ -1,6 +1,7 @@
 ul{
     list-style-type: none
 }
+
 .container{
     background: #fff;
     max-width: 1200px;
@@ -52,7 +53,7 @@ padding: 30px 70px;
  .header_nav-list a{
     text-decoration: none;
     color:  #3D3D3D;
-    padding-bottom: 20px; ;
+    padding-bottom: 50px; ;
  }
  .active a,
  .header_nav-list a:hover{
@@ -72,7 +73,58 @@ padding: 30px 70px;
     color: #46a358;
     
  }
+ p{
+    color:#3D3D3D
+}
 
- 
- 
- 
+.container-button{
+    display: flex; 
+    align-items: center;
+    
+    max-width: 1200px; 
+    margin: 15px auto; 
+    padding: 100px 20px; 
+    background: #F5F5F580;
+}
+
+
+.content .title {
+    font-size: 48px; 
+    
+    color: #333; 
+}
+
+.content .title span {
+    color: #4CAF50; 
+}
+.flovers_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%; 
+    border-top:0 auto ;
+    top: 15%; 
+    right: 0px;
+    
+}
+
+.btn-shop{
+    display: inline-block;
+    background: #46a358;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid;
+}
+.btn-shop:hover{
+    background: #fff;
+    color:#46a358
+}
+
+
+
+
+
+
+
