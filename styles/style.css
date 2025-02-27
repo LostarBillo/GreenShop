@@ -2,28 +2,28 @@ ul{
     list-style-type: none
 }
 
+
 .container{
-    background: #fff;
+    /* background: #fff; */
     max-width: 1200px;
     margin: 0 auto;
-padding: 30px 70px;
-
+    
 }
 .header{
     font-size: 0px;
 }
-.header
+.header{
+    padding: 30px 70px;
+}
 
-.Logo,
+.logo,
 .header__nav {
  display: inline-block;
- 
  vertical-align:top;
  font-size: 16px;
 }
 .btn-login{
     display: inline-block;
-    
     vertical-align: top;
     font-size: 16px;
     
@@ -33,7 +33,7 @@ padding: 30px 70px;
     padding: 0px;
     margin: 0px;
 }
-.Logo{
+.logo{
     width: 150px;
 }
 .btn-login{
@@ -53,7 +53,7 @@ padding: 30px 70px;
  .header_nav-list a{
     text-decoration: none;
     color:  #3D3D3D;
-    padding-bottom: 50px; ;
+    padding-bottom: 23px; ;
  }
  .active a,
  .header_nav-list a:hover{
@@ -73,40 +73,23 @@ padding: 30px 70px;
     color: #46a358;
     
  }
- p{
-    color:#3D3D3D
-}
-
-.container-button{
-    display: flex; 
-    align-items: center;
-    
-    max-width: 1200px; 
-    margin: 15px auto; 
-    padding: 100px 20px; 
-    background: #F5F5F580;
-}
-
-
-.content .title {
+ .flovers_img,.content{
+    display: inline-block;
+    vertical-align: middle;
+ }
+ 
+ 
+/* .content .title {
     font-size: 48px; 
     
     color: #333; 
-}
+} */
 
 .content .title span {
     color: #4CAF50; 
 }
-.flovers_img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 40%; 
-    border-top:0 auto ;
-    top: 15%; 
-    right: 0px;
-    
-}
+
+
 
 .btn-shop{
     display: inline-block;
@@ -121,6 +104,20 @@ padding: 30px 70px;
     background: #fff;
     color:#46a358
 }
+
+/* .sider,.conntent{
+    border: #3D3D3D solid 2px;
+}
+.sider{
+    width: 310px;
+    float: left;
+    padding: 14px 18px;
+}
+.conntent{
+    float: right;
+    width: calc(100%-310px);
+} */
+
 
 
 
