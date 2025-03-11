@@ -1,13 +1,99 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-RegularItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+}
+body{
+    font-family: 'Cera Pro';
+    font-size: 16px;
+    /* line-height: 1.7; */
+}
+
 ul{
     list-style-type: none
 }
-
-
 .container{
-    /* background: #fff; */
     max-width: 1200px;
     margin: 0 auto;
-    
+    background: #fff;
 }
 .header{
     font-size: 0px;
@@ -58,6 +144,7 @@ ul{
  .active a,
  .header_nav-list a:hover{
     border-bottom: solid 3px #46a358;
+    font-weight: 700;
  }
  .btn-login a{
   display: inline-block;
@@ -73,25 +160,29 @@ ul{
     color: #46a358;
     
  }
- .flovers_img,.content{
+ .flovers_img,.sec_one {
     display: inline-block;
     vertical-align: middle;
-
+    width: 45%;
+    margin-left: 45px;
  }
- 
- 
-/* .content .title {
-    font-size: 48px; 
-    
-    color: #333; 
-} */
-
 .content .title span {
     color: #4CAF50; 
 }
-
-
-
+.title{
+    font-weight: 900;
+    font-size: 70px;
+    margin: 0;
+}
+.description{
+    font-size: 14px;
+    color: #727272;
+    margin: 0 0 44px;
+}
+.title_add{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 .btn-shop{
     display: inline-block;
     background: #46a358;
@@ -105,20 +196,158 @@ ul{
     background: #fff;
     color:#46a358
 }
-
+ /* section */
 /* .sider,.conntent{
     border: #3D3D3D solid 2px;
-}
+} */
 .sider{
     width: 310px;
     float: left;
     padding: 14px 18px;
+    font-style: 18px;
+    background: #FBFBFB;
+}
+.sider h4{
+    margin-top: 0;
+    margin: 0 0 7px;
 }
 .conntent{
     float: right;
-    width: calc(100%-310px);
-} */
+    width: calc(100% - 310px);
+    padding-left: 50px;}
+.table_1.active-fer{
+color: #46A358;
+font-weight: 700;
+}
+.table_1 a:hover{
+color: #46A358;
+}
+.table_1 a{
+    text-decoration: none;
+    color: #3D3D3D;
+}
 
+.table_1{
+    padding: 0 0 0 12px;
+}
+.table_1 li{
+ margin-bottom: 30px;
+}
+.claerfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.product_sort-filter li .active-fer {
+color: #46A358;
+
+}
+.product_sort-filter a:hover{
+    color: #46A358;
+}
+.product_sort-filter a {
+    color: #3D3D3D;
+    text-decoration: none;
+}
+.product_sort-title{
+    margin-right: 10px;
+}
+.product_sort-opinion::after{
+content: '';
+display: inline-block;
+width: 16px;
+height: 16px;
+background: url(../imagas/arow.svg);
+}
+.product_sort-filter{
+    padding: 0;
+    margin: 0;
+}
+.product_sort-filter li{
+    display: inline-block;
+    margin-right: 37px;
+    float: left;
+}
+/* .product_sort-filter a{
+ text-decoration: none;
+} */
+.product_sort-sorting{
+    float: right;
+}
+.product_sort-title,.product_sort-select{
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-list {
+    margin: 0 0 50px;
+    padding: 0;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.product_item {
+    width: calc(33.333% - 20px);
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product_item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-item{
+    width: 33.33%;
+}
+ h6{
+    margin: 0;
+    
+}
+.prise{
+    color: #46a358;
+    font-weight: 700;
+    font-style: 18px;
+}
+.prise:hover{
+    color: #3D3D3D;
+    
+}
+.pages{
+    text-align: right;
+}
+.pages li .active a,
+.pages a:hover{
+ background: #fff;
+ color: #3D3D3D;
+}
+
+.pages li {
+    margin-left: 12px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.pages a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 4px;
+    background: #46A358;
+    border: 1px solid #E5E5E5;
+    text-decoration: none;
+    color: #3D3D3D;
+    padding-top: 6px;
+}
 
 
 
