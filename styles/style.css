@@ -468,8 +468,9 @@ color: #46A358;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
-    margin-right: 135px;
+    margin-right: 135px ;
     color: #3D3D3D;
+    margin-bottom:25px ;
  }
  .time_btn::after{
     content: "➞";
